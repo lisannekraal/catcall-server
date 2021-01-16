@@ -15,7 +15,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon index.js",
+    "start": "yarn install && nodemon index.js",
     "initialSetup": "node createTestAdmin.js && nodemon index.js",
     "populate": "node seeder.js && node createTestAdmin.js"
   },
